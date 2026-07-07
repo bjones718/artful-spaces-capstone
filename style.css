@@ -402,4 +402,8 @@ footer {
   .deliverable-list {
     columns: 1;
   }
+.frame-box::before,
+.frame-box::after {
+  display: none !important;
+  content: none !important;
 }
