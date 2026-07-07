@@ -96,27 +96,6 @@ body {
   background: rgba(0,0,0,0.35);
   backdrop-filter: blur(4px);
 }
-
-.frame-box::before {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background: var(--charcoal);
-  top: -5px;
-  right: -5px;
-}
-
-.frame-box::after {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background: var(--charcoal);
-  bottom: -5px;
-  left: -5px;
-}
-
 .eyebrow {
   color: var(--turquoise);
   text-transform: uppercase;
