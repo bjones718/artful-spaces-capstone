@@ -157,15 +157,19 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-right::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(17,17,16,0.15), rgba(17,17,16,0.35)),
-    linear-gradient(135deg, rgba(255,90,31,0.12), transparent 35%);
+.hero-right {
+  position: relative;
+  overflow: hidden;
+  min-height: 680px;
+  background-color: #111;
+  background-image: url("./images/hero-gallery.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-
+.hero-right {
+  outline: 4px solid red;
+}
 .color-palette {
   position: absolute;
   z-index: 2;
